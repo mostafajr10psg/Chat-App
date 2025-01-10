@@ -143,14 +143,14 @@ main {
   width: 180px;
   height: 37px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .phone .contact-info {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 35px 15px 15px;
+  padding: 43px 15px 15px;
   border-radius: 25px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -167,8 +167,8 @@ main {
 }
 
 .phone .contact-info img {
-  width: 30px;
-  height: 30px;
+  width: 33px;
+  height: 33px;
   border-radius: 50%;
   border: 1px solid white;
 }
@@ -176,10 +176,11 @@ main {
 .phone .contact-info .name p {
   color: white;
   font-size: 15px;
+  margin-bottom: -3px;
 }
 
 .phone .contact-info .name span {
-  font-size: 12px;
+  font-size: 13px;
   color: rgb(255 255 255 / 70%);
 }
 
@@ -214,31 +215,13 @@ main {
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
-  margin: 45px 0 35px;
-  position: relative;
+  margin: 20px 0 10px;
 }
 
 .phone .chat .dog-imgs img {
   width: 50px;
   border-radius: 10px;
   transition: 0.3s;
-  position: absolute;
-}
-
-.phone .chat .dog-imgs img:hover {
-  width: 200px;
-}
-
-.phone .chat .dog-imgs img:first-of-type {
-  right: 120px;
-}
-
-.phone .chat .dog-imgs img:nth-of-type(2) {
-  right: 60px;
-}
-
-.phone .chat .dog-imgs img:last-of-type {
-  right: 0;
 }
 
 .phone .chat .right-chat {
