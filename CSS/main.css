@@ -37,7 +37,7 @@ body {
 }
 
 .arrow-left {
-  position: absolute;
+  position: fixed;
   left: -80px;
   top: 0;
   width: 590px;
